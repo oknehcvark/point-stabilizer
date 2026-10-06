@@ -1,0 +1,17 @@
+# build output
+dist/
+build/
+*.spec
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# videos and temp files (demo media that belongs in the repo lives in docs/ and is listed explicitly)
+*.mp4
+*.mov
+*.video_only.tmp.mp4
+!docs/*.mp4
+
+.DS_Store
